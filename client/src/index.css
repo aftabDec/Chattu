@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+   margin: 0;
+   color: rgb(0, 0, 0);
+   font-family: Arial, sans-serif;
+   background: #001735; /* Set a light background color */
+}
+/* General scrollbar styling (adjust classes as needed) */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  
+}
+
+::-webkit-scrollbar-track {
+  background: #1A1E52; /* Light gray background based on your theme */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0f1346; /* Light blue based on your theme */
+  border-radius: 10px; /* Rounded corners */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #000a39; /* Slightly darker on hover */
+}
